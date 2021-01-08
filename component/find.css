@@ -1,0 +1,79 @@
+#find {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 600px;
+  position: relative;
+  margin-left: 33%;
+  margin-right: 33%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 200px;
+  box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.find__form {
+  width: 550px;
+  border-radius: 20px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  height: 40px;
+  display: flex;
+}
+#find input {
+  width: 600px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  margin-left: 40px;
+}
+#find button {
+  border: 0px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.find__text {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  height: 0px;
+}
+
+#find i {
+  margin-left: 15px;
+}
+#find:hover {
+  height: 400px;
+  border-radius: 10px;
+}
+#find:hover > .find__text {
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: -40px;
+}
+#find:hover > .find__form {
+  position: absolute;
+  top: 0px;
+  left: -45px;
+}
+
+#find:hover > .find__form i {
+  position: absolute;
+  left: 46px;
+  top: 16px;
+}
+#find:hover > .find__form input {
+  margin-left: 100px;
+}
+
+.find__text span:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.find__text span {
+  margin: 10px 0px;
+  width: 600px;
+}
+.find__text i {
+  margin-right: 40px;
+  margin-left: 10px;
+}

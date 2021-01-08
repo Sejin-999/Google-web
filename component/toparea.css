@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.toparea {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.toparea span,
+.toparea i,
+.toparea div {
+  margin: 0px 10px;
+}
+
+.toparea__user {
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: blueviolet;
+  position: relative;
+  top: -5px;
+}
+.toparea__user span {
+  position: absolute;
+  top: 8px;
+  left: -1px;
+  color: white;
+  font-size: 12px;
+}
+
+.toparea span:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+}
+.toparea__user span:hover {
+  border-bottom: 0px solid rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.toparea__icon:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.toparea__icon {
+  height: 15px;
+  border-radius: 8px;
+}
